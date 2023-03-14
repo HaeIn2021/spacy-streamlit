@@ -1,4 +1,5 @@
 import spacy
+import spacy_streamlit
 from spacy_streamlit import visualize_tokens
 
 nlp = spacy.load("en_core_web_sm")
